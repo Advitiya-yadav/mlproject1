@@ -12,8 +12,8 @@ class PredictPipeline:
 
     def predict(self,features):
         try:
-            model_path='artifacts/model.pkl'
-            preprocessor_path='artifacts/preprocessor.pkl'
+            model_path='C:/Users/advit/Desktop/End-to-end Machine Learning Project/artifacts/model.pkl'
+            preprocessor_path='C:/Users/advit/Desktop/End-to-end Machine Learning Project/artifacts/preprocessor.pkl'
             model=load_object(file_path=model_path)
             preprocessor=load_object(file_path=preprocessor_path)
         
