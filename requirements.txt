@@ -1,11 +1,10 @@
 streamlit
 pandas
 numpy
-seaborn
-matplotlib
 scikit-learn
 catboost
 xgboost
 dill
 Flask
-sklearn.metrics
+seaborn
+matplotlib
